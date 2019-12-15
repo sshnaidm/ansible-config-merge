@@ -5,7 +5,7 @@ import sys
 
 from io import StringIO
 
-
+# https://github.com/ansible/ansible/blob/devel/lib/ansible/config/base.yml
 APPENDABLES = {
     'collections_paths': 'pathspec',
     'doc_fragment_plugins': 'pathspec',
